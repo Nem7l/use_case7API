@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 import json
+df = pd.read_csv("use_case7API/final_data.csv")
 st.title('My prediction app ')
 
 height = st.sidebar.slider('Height', 0, 218, 10)
