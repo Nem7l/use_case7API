@@ -3,5 +3,5 @@ pydantic
 joblib
 fastapi
 scikit-learn
-panda 
-Dataframe
+pandas
+
