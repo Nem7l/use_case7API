@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 import json
+import pandas as pd
 df = pd.read_csv("use_case7API/final_data.csv")
 st.title('My prediction app ')
 
