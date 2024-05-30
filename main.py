@@ -9,8 +9,8 @@ def read_root():
 
 
 # Load your model and scaler
-model = joblib.load('Models/DBSCAN.joblib')
-scaler = joblib.load('Models/scaler.joblib')
+model = joblib.load('DBSCAN.joblib')
+scaler = joblib.load('scaler.joblib')
 
 # Define a Pydantic model for input data validation
 class InputFeatures(BaseModel):
